@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    color: rgb(255, 255, 255);
+    font-family: Roboto, Helvetica, Arial,;
+    background-color: rgb(220, 230, 226)!important;
+}
+
+.container{
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: white;
+    
+}
+
+.title-2{
+    padding: 15px;
+}
+
+.form-check-label a{
+    text-decoration: none;
+}
+/* :root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+} */
+
+.reg-sidebar{
+   margin-top: 20px;
+   background-color: rgb(220, 230, 226);
+   padding-top: 20px;
+}
+
+.promo-text-box{
+    padding-bottom: 50px;
+}
+.icon-color-1{
+    color: rgb(255, 145, 19);
+}
+
+.icon-color-2 {
+    color: rgb(230, 200, 64);
+}
+
+.icon-color-3 {
+    color: rgb(116, 194, 155);
+}
+
+/* eye icon */
+
+.fa, .far, .fas {
+    font-family: Font Awesome\ 5 Free;
+}
+.fab, .far {
+    font-weight: 400;
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
