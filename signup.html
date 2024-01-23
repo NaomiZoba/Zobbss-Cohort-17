@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="signup.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/bd5ea8837d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+  <div class="container"> 
+      <div class="row"> 
+        <div class="col-md-8 page-content"> 
+            <div class="inner-box"> 
+                <h2 class="title-2"> 
+                    <strong><i class="fas fa-user-plus"></i> 
+                    Create your account, It's 100% free
+                </strong> 
+            </h2> 
+            <hr>
+            <div class="row mt-5"> 
+                <div class="col-xl-12"> 
+                    <form id="signupForm" class="form-horizontal" method="POST" action="https://baygh.com/register"> 
+                        <input type="hidden" name="_token" value="0e4PyyqFxFv68JZaKAAkFGrXPRPdKG8eRM6IsCwj"> 
+                        <fieldset> 
+                            <div class="row mb-3 required"> 
+                              <label class="col-md-4 col-form-label">Name <sup>*</sup>
+                            </label> 
+                            <div class="col-md-6"> 
+                                <input name="name" placeholder="Name" class="form-control input-md" type="text" value="" required=""> 
+                            </div> 
+                        </div> 
+                               <input id="countryCode" name="country_code" type="hidden" value="GH"> 
+                        <div class="row mb-3 required"> 
+                            <label class="col-md-4 col-form-label">Phone</label> 
+
+                               <div class="col-md-6"> 
+                                <div class="input-group"> 
+                                    <span id="phoneCountry" class="input-group-text">
+                                        <img src="https://baygh.com/images/flags/16/gh.png" style="padding: 2px;">
+                                    </span> 
+                                        <input name="phone" placeholder="Phone Number" class="form-control input-md" type="text" value=""> 
+                                       <span class="input-group-text" data-bs-placement="top" data-bs-toggle="tooltip" title="" data-bs-original-title="Hide the phone number on the listings."> 
+                                          <input name="phone_hidden" id="phoneHidden" type="checkbox" value="1">&nbsp;<small>Hide</small> 
+                                        </span> 
+                                    </div> 
+                                </div> 
+                            </div> 
+                            <div class="row mb-3 required"> 
+                                <label class="col-md-4 col-form-label" for="email">Email <sup>*</sup> </label> 
+                                <div class="col-md-6"> 
+                                    <div class="input-group"> 
+                                        <span class="input-group-text">
+                                            <i class="far fa-envelope"></i>
+                                        </span> 
+                                        <input id="email" name="email" type="email" class="form-control" placeholder="Email" value="" required="required"> 
+                                    </div> 
+                                </div> 
+                            </div> 
+                            <div class="row mb-3 required"> 
+                                <label class="col-md-4 col-form-label" for="email">Account Type</label> 
+                                <div class="col-md-6"> 
+                                    <div class="input-group"> 
+                                        <span class="input-group-text">
+                                            <i class="far fa-user"></i>
+                                        </span> 
+                                        <select name="user_type_id" id="user_type_id" class="form-control"> 
+                                            <option value="2">Individual</option> 
+                                            <option value="1">Business</option> 
+                                        </select> 
+                                    </div> 
+                                </div> 
+                            </div> 
+                            <div class="row mb-3 required"> 
+                                <label class="col-md-4 col-form-label" for="password">Password <sup>*</sup></label> 
+                                <div class="col-md-6"> <div class="input-group show-pwd-group mb-2"> <input id="password" name="password" type="password" class="form-control" placeholder="Password" autocomplete="off"> 
+                                    <span class="icon-append show-pwd"> 
+                                        <button type="button" class="eyeOfPwd"> 
+                                            <i class="far fa-eye-slash"></i> 
+                                        </button> 
+                                    </span> 
+                                </div> 
+                                <input id="password_confirmation" name="password_confirmation" type="password" class="form-control" placeholder="Password Confirmation" autocomplete="off"> 
+                                <div class="form-text text-muted"> At least 6 characters </div> 
+                            </div> 
+                        </div>
+                        <div class="captcha-div row mb-3 required"> 
+                            <label class="col-md-4 col-form-label" for="captcha"> </label> 
+                            <div class="col-md-6">
+                                <img src="https://baygh.com/captcha/flat?t=1704973873477" style="cursor: pointer;"> 
+                                <a rel="nofollow" href="javascript:;" class="" title="Reload the security code.">
+                                    <button type="button" class="btn btn-primary btn-refresh">
+                                        <i class="fas fa-sync"></i>
+                                    </button>
+                                </a> 
+                                <div class="form-text text-muted" style="margin-bottom: 2px;">Please enter the security code shown in the image above in the field below:</div> 
+                                <input type="text" name="captcha" autocomplete="off" class="form-control" style="width: 160px;"> 
+                            </div> 
+                        </div> 
+                        <div class="row mb-1 required"> 
+                            <label class="col-md-4 col-form-label"></label> 
+                            <div class="col-md-6"> <div class="form-check"> 
+                                <input name="accept_terms" id="acceptTerms" class="form-check-input" value="1" type="checkbox"> 
+                                <label class="form-check-label" for="acceptTerms" style="font-weight: normal;"> I have read and agree to the 
+                                    <a href="https://baygh.com/page/terms-and-conditions">Terms &amp; Conditions</a> 
+                                </label> 
+                            </div> 
+                            <div style="clear:both"></div> 
+                        </div> 
+                    </div> 
+                    <div class="row mb-3 required"> 
+                        <label class="col-md-4 col-form-label"></label> 
+                        <div class="col-md-6"> 
+                            <div class="form-check"> 
+                                <input name="accept_marketing_offers" id="acceptMarketingOffers" class="form-check-input" value="1" type="checkbox"> 
+                                <label class="form-check-label" for="acceptMarketingOffers" style="font-weight: normal;"> I accept to receive marketing emails </label> 
+                            </div> 
+                            <div style="clear:both">
+                            </div> 
+                        </div> 
+                    </div> 
+                    <div class="row"> 
+                        <label class="col-md-4 col-form-label"></label> 
+                        <div class="col-md-6"> 
+                            <button id="signupBtn" class="btn btn-primary btn-lg"> Register </button> 
+                        </div> 
+                    </div> 
+                    <div class="mb-4"></div> 
+                </fieldset> 
+            </form> 
+        </div> 
+    </div> 
+</div> 
+</div> 
+<div class="col-md-4 reg-sidebar"> 
+    <div class="reg-sidebar-inner text-center"> 
+        <div class="promo-text-box"> 
+            <i class="far fa-image fa-4x icon-color-1"></i> 
+            <h3>
+                <strong>Create New Listing</strong>
+            </h3> 
+            <p> Do you have something to sell, to rent, any service to offer or a job offer? Post it at bayGH.com, its free, for local business and very easy to use! </p> 
+        </div> 
+        <div class="promo-text-box"> 
+            <i class="fas fa-pen-square fa-4x icon-color-2"></i> 
+            <h3>
+                <strong>Create and Manage Items</strong>
+            </h3> 
+            <p>Become a best seller or buyer. Create and Manage your listings. Repost your old listings, etc.</p> 
+        </div> 
+        <div class="promo-text-box">
+            <i class="fas fa-heart fa-4x icon-color-3"></i> 
+            <h3>
+                <strong>Create your favorite listings list.</strong>
+            </h3> 
+            <p>Create your favorite listings list. And save your search. Don't forget any deal.</p> 
+        </div> 
+    </div> 
+  </div> 
+  </div> 
+ </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>      
+</body>
+</html>

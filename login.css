@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    background-color: #d4dbe0;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.login-container{
+    max-width: 450px;
+    height: 80vh;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+header h1{
+    font-weight: bolder;
+    color: #4682b4;
+    margin-top: 20px;
+
+}
+
+.login-icon{
+    font-size: 24px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+    position: relative;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.form-group p{
+    color: gray;
+    
+}
+
+.fa-eye{
+    position: absolute;
+    
+}
+
+/* icon designs starts here */
+
+
+footer-icon ul li a{
+    display: flex!important;
+    margin-bottom: 10px;
+}
+element.style {
+}
+.footer-nav li a:first-child {
+    border-left: 0;
+}
+.footer-nav-inline.social-list-color li a {
+    color: #fff;
+    font-size: 14px;
+    width: 28px;
+    display: inline-block;
+    text-align: center;
+    padding: 3px 0;
+}
+.icon-color.fb {
+    background: #3b5998!important;
+}
+.icon-color.fb {
+    background: #3b5998;
+}
+.cat-list h3, .footer-nav li a, .iconbox-wrap-text, .intro-title, .list-title, .logo, .logo-title, .page-info h3, .title-3, .user-panel-sidebar ul li a, button.btn-search {
+    text-transform: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #4682b4;
+    border-color: #4682b4;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+element.style {
+}
+.footer-nav li a:first-child {
+    border-left: 0;
+}
+.footer-nav-inline.social-list-color li a {
+    color: #fff;
+    font-size: 14px;
+    width: 28px;
+    display: inline-block;
+    text-align: center;
+    padding: 3px 0;
+}
+.icon-color.tw {
+    background: #55acee!important;
+}
+
+element.style {
+}
+.footer-nav li a:first-child {
+    border-left: 0;
+}
+.footer-nav-inline.social-list-color li a {
+    color: #fff;
+    font-size: 14px;
+    width: 28px;
+    display: inline-block;
+    text-align: center;
+    padding: 3px 0;
+}
+.icon-color.pin {
+    background: #cb2027!important;
+}
+
+/* eye icon */
+
+.fa, .far, .fas {
+    font-family: Font Awesome\ 5 Free;
+}
+.fab, .far {
+    font-weight: 400;
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+
+.remember-me{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.forgot-password{
+    text-align: center;
+    text-decoration: none;
+}
+
+.login-box-btm{
+    padding-top: 20px;
+}
+
+.login-box-btm a{
+    text-decoration: none;
+    color: rgb(214, 139, 0);
+    font-weight: bold;
+}
+
+/* footer starts here */
+
+.container-fluid{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    margin-top: 70px;
+    justify-content: center;
+    border-top: 3px solid orange;
+    position: relative;
+}
+
+.row{
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 28vh;
+}
+
+.footer-title{
+    margin: auto;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    color: rgb(70, 69, 69);
+    transition: 0.5s ease-out;
+}
+
+.icon-color{
+    font-size: 14px;
+    width: 28px;
+    display: inline-block;
+    text-align: center;
+    padding: 3px 0;
+}
+
+
+
+.last-footer{
+    height: 8vh;
+    padding-top: 10px;
+}
+
+#foot{
+    flex-direction: column;
+}
