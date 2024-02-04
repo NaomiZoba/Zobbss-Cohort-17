@@ -1,0 +1,66 @@
+.images1{
+
+    width: 10%;
+    margin-right: 50px;
+}
+
+.Post1{
+
+    background-color: blue;
+    height: 35px;
+    
+}
+
+.src1{
+
+    background-color: blue;
+}
+
+img{
+
+    width: 100px;
+    padding-top: 5px;
+    border-radius: 100px;
+    border-color: red 200px;
+
+    
+    
+}
+
+.img-2{
+
+    
+    border-color: rgb(196, 26, 26);
+}
+
+.navbar11{
+
+    position: sticky;
+}
+
+h1{
+
+    font-size:  20px;
+    margin-top: 10px;
+    
+}
+
+
+
+p{
+
+    font-size: 13px;
+    margin-top: 10px;
+    color: blue;
+}
+
+h2{
+
+    font-size: 15px;
+    color: lightgray;
+}
+
+.Companies-container{
+
+    height: 120vh;
+}
